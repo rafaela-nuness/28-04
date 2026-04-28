@@ -1,11 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Douglinha Gesso — Drywall, Decoração e Iluminação</title>
+    <meta name="description"
+        content="Douglinha Gesso: serviços profissionais de gesso, drywall, decoração e iluminação. Transforme seus ambientes com qualidade e criatividade.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
+
 <body>
-    
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header id="header">
+        <div class="container nav-wrapper">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">👑</span>
+                <span class="logo-text">Douglinha<strong>Gesso</strong></span>
+            </a>
+            <nav id="nav">
+                <a href="#servicos">Serviços</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
+                <button class="btn-admin-nav" id="btnAdminNav" title="Área Admin">⚙️</button>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section id="hero">
+        <!-- Video Background -->
+        <div class="hero-video-wrapper">
+            <video class="hero-video" autoplay muted loop playsinline preload="auto" id="heroVideo">
+                <source src="images/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tag">Drywall • Decoração • Iluminação</p>
+            <h1>Transformamos seus <span class="gold">ambientes</span> em obras de arte</h1>
+            <p class="hero-desc">Soluções em gesso com qualidade, pontualidade e acabamento impecável. Do projeto ao
+                resultado final, cuidamos de cada detalhe.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5511977038423" target="_blank" class="btn btn-primary" id="heroWhatsapp">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Solicite um Orçamento
+                </a>
+                <a href="#galeria" class="btn btn-outline btn-outline-light">Ver Trabalhos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section id="servicos">
+        <div class="container">
+            <p class="section-tag reveal">O que fazemos</p>
+            <h2 class="section-title reveal">Nossos <span class="gold">Serviços</span></h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🏗️</div>
+                    <h3>Drywall</h3>
+                    <p>Paredes, divisórias e forros em drywall com rapidez e acabamento perfeito. Ideal para reformas e
+                        construções.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">✨</div>
+                    <h3>Decoração</h3>
+                    <p>Molduras, sancas, nichos e elementos decorativos em gesso que transformam qualquer ambiente.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">💡</div>
+                    <h3>Iluminação</h3>
+                    <p>Projetos de iluminação com sancas, spots e LED integrado. Crie atmosferas únicas e aconchegantes.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🎨</div>
+                    <h3>Gesso 3D</h3>
+                    <p>Painéis e peças artísticas em gesso 3D. Efeitos visuais impressionantes e exclusivos para seu
+                        espaço.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section id="galeria">
+        <div class="container">
+            <p class="section-tag reveal">Nosso Portfólio</p>
+            <h2 class="section-title reveal">Galeria de <span class="gold">Trabalhos</span></h2>
+            <p class="section-desc reveal">Confira nossos projetos mais recentes. Cada trabalho é feito com dedicação e
+                atenção aos detalhes.</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Photos will be injected here by JS -->
+            </div>
+            <div class="gallery-empty" id="galleryEmpty" style="display:none;">
+                <div class="empty-icon">📷</div>
+                <p>Nenhuma foto ainda. Em breve novos trabalhos!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section id="contato">
+        <div class="container">
+            <p class="section-tag reveal">Fale Conosco</p>
+            <h2 class="section-title reveal">Entre em <span class="gold">Contato</span></h2>
+            <p class="section-desc reveal">Solicite um orçamento sem compromisso ou acompanhe nosso trabalho nas redes
+                sociais.</p>
+            <div class="contact-cards">
+                <a href="https://wa.me/5511977038423" target="_blank" class="contact-card reveal" id="contactWhatsapp">
+                    <div class="contact-icon whatsapp-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>(11) 97703-8423</p>
+                    <span class="contact-cta">Enviar mensagem →</span>
+                </a>
+                <a href="https://www.instagram.com/douglinha_gesso?igsh=Mm5vb3doZ2M1Zzhw" target="_blank"
+                    class="contact-card reveal" id="contactInstagram">
+                    <div class="contact-icon instagram-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>@douglinha_gesso</p>
+                    <span class="contact-cta">Seguir no Instagram →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">👑</span>
+                <span class="logo-text">Douglinha<strong>Gesso</strong></span>
+                <p>Drywall • Decoração • Iluminação</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/douglinha_gesso?igsh=Mm5vb3doZ2M1Zzhw" target="_blank"
+                    aria-label="Instagram">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <a href="https://wa.me/5511977038423" target="_blank" aria-label="WhatsApp">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </a>
+            </div>
+            <p class="footer-copy">© 2026 Douglinha Gesso. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+    <a href="https://wa.me/5511977038423" target="_blank" class="fab-whatsapp" id="fabWhatsapp" aria-label="WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- ============ ADMIN MODAL ============ -->
+    <div class="modal-overlay" id="adminOverlay">
+        <div class="modal" id="adminModal">
+            <!-- LOGIN SCREEN -->
+            <div id="adminLogin">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="modal-header">
+                    <h2>🔒 Área Admin</h2>
+                    <p>Digite a senha para acessar o painel.</p>
+                </div>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="password" id="adminPassword" placeholder="Senha" autocomplete="off" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Entrar</button>
+                    <p class="login-error" id="loginError"></p>
+                </form>
+            </div>
+            <!-- ADMIN PANEL -->
+            <div id="adminPanel" style="display:none;">
+                <button class="modal-close" id="modalClose2">&times;</button>
+                <div class="modal-header">
+                    <h2>📸 Gerenciar Fotos</h2>
+                    <p>Faça upload das fotos dos seus trabalhos. As mais recentes ficam no topo da galeria.</p>
+                </div>
+                <form id="uploadForm">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">📁</div>
+                        <p>Arraste imagens aqui ou <label for="fileInput" class="upload-link">clique para
+                                selecionar</label></p>
+                        <input type="file" id="fileInput" accept="image/*" multiple hidden>
+                    </div>
+                    <div class="upload-preview" id="uploadPreview"></div>
+                    <div class="form-group">
+                        <input type="text" id="photoCaption" placeholder="Descrição do trabalho (opcional)">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="btnUpload">
+                        Publicar Fotos
+                    </button>
+                </form>
+                <hr class="divider">
+                <h3 class="admin-subtitle">Fotos Publicadas</h3>
+                <div class="admin-gallery" id="adminGallery"></div>
+                <div class="admin-actions">
+                    <button class="btn btn-outline btn-sm" id="btnChangePass">Alterar Senha</button>
+                    <button class="btn btn-danger btn-sm" id="btnLogout">Sair</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ LIGHTBOX ============ -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img id="lightboxImg" src="" alt="Foto ampliada">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
